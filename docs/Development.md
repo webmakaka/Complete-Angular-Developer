@@ -2,7 +2,7 @@
 
 <br/>
 
-# 06 - Master Project Component Design
+# 06 Master Project Component Design
 
 <br/>
 
@@ -23,3 +23,31 @@ $ ng serve
 ```
 
 http://localhost:4200/
+
+<br/>
+
+### 002 What is Tailwind
+
+<br/>
+
+### 002 What is Tailwind
+
+<br/>
+
+### 003 Installing Tailwind
+
+```
+$ npm install -D tailwindcss@latest
+```
+
+```
+$ npx tailwind init
+```
+
+```
+$ ng serve
+```
+
+<br/>
+
+![Application](/img/pic-m06-p01.png?raw=true)
