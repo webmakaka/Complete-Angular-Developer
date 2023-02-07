@@ -55,3 +55,19 @@ $ ng serve
 <br/>
 
 ![Application](/img/pic-m06-p02.png?raw=true)
+
+<br/>
+
+### 005 Practicing with Tailwind
+
+<br/>
+
+### 006 Loading Static Assets
+
+<br/>
+
+![Application](/img/pic-m06-p03.png?raw=true)
+
+<br/>
+
+### 007 What’s Next
