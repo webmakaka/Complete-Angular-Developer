@@ -30,10 +30,6 @@ http://localhost:4200/
 
 <br/>
 
-### 002 What is Tailwind
-
-<br/>
-
 ### 003 Installing Tailwind
 
 ```
@@ -51,3 +47,11 @@ $ ng serve
 <br/>
 
 ![Application](/img/pic-m06-p01.png?raw=true)
+
+<br/>
+
+### 004 Configuring Tailwind
+
+<br/>
+
+![Application](/img/pic-m06-p02.png?raw=true)
