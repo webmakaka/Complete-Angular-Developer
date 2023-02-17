@@ -71,3 +71,12 @@ $ ng serve
 <br/>
 
 ### 007 What’s Next
+
+
+<br/>
+
+### 008 Creating a User Module
+
+```
+$ ng generate module user
+```
