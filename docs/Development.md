@@ -109,3 +109,11 @@ $ ng generate component user/auth-modal
 $ ng generate module shared
 $ ng generate component shared/modal
 ```
+
+<br/>
+
+### 013 Creating a Reusable Modal
+
+<br/>
+
+![Application](/img/pic-m06-p05.png?raw=true)
