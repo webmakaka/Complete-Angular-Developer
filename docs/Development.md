@@ -2,7 +2,7 @@
 
 <br/>
 
-# 06 Master Project Component Design
+## 06 Master Project Component Design
 
 <br/>
 
@@ -72,7 +72,6 @@ $ ng serve
 
 ### 007 What’s Next
 
-
 <br/>
 
 ### 008 Creating a User Module
@@ -80,3 +79,20 @@ $ ng serve
 ```
 $ ng generate module user
 ```
+
+<br/>
+
+### 009 Navigation and Modal Components
+
+```
+$ ng generate component nav
+$ ng generate component user/auth-modal
+```
+
+<br/>
+
+### 010 Exporting Components
+
+<br/>
+
+![Application](/img/pic-m06-p04.png?raw=true)
