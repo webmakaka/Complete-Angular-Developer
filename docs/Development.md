@@ -96,3 +96,16 @@ $ ng generate component user/auth-modal
 <br/>
 
 ![Application](/img/pic-m06-p04.png?raw=true)
+
+<br/>
+
+### 011 Designing a Modal
+
+<br/>
+
+### 012 Creating a Shared Module
+
+```
+$ ng generate module shared
+$ ng generate component shared/modal
+```
