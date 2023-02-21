@@ -169,3 +169,15 @@ $ ng generate service services/modal
 <br/>
 
 ### 024 Updating the Components
+
+<br/>
+
+### 025 Memory Leaks
+
+<br/>
+
+### 025 Memory Leaks
+
+<br/>
+
+### 026 Fixing the memory leak
