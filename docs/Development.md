@@ -137,3 +137,11 @@ $ ng generate service services/modal
 <br/>
 
 ### 017 Understanding Dependency Injection
+
+<br/>
+
+### 018 Injecting Services
+
+<br/>
+
+### 019 Opening the Modal
