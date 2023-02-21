@@ -121,3 +121,15 @@ $ ng generate component shared/modal
 <br/>
 
 ### 014 Multi-slot Content Projection
+
+<br/>
+
+### 015 Understanding Services
+
+<br/>
+
+### 016 Creating a Service
+
+```
+$ ng generate service services/modal
+```
