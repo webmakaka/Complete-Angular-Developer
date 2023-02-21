@@ -149,3 +149,23 @@ $ ng generate service services/modal
 <br/>
 
 ### 020 Closing the Modal
+
+<br/>
+
+### 021 Understanding Singletons
+
+<br/>
+
+### 021 Understanding Singletons
+
+<br/>
+
+### 022 Creating an ID System
+
+<br/>
+
+### 023 Refactoring the Service
+
+<br/>
+
+### 024 Updating the Components
