@@ -47,4 +47,6 @@ Package                      Version
 
 <br/>
 
-[Development](./docs/Development.md)
+## Development
+
+### [06 Master Project Component Design](./docs/Chapter06.md)
