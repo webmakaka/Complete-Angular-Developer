@@ -206,3 +206,11 @@ $ ng generate component shared/Tab
 <br/>
 
 ### 031 Looping through the Tabs
+
+<br/>
+
+### 032 Setting an Active Tab
+
+<br/>
+
+![Application](/img/pic-m06-p06.png?raw=true)
