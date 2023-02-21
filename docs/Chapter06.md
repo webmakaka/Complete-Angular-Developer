@@ -222,3 +222,7 @@ $ ng generate component shared/Tab
 <br/>
 
 ![Application](/img/pic-m06-p07.png?raw=true)
+
+<br/>
+
+### 034 Preventing the Default Behavior
