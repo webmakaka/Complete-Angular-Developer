@@ -202,3 +202,7 @@ $ ng generate component shared/Tab
 <br/>
 
 ### 030 The QueryList Object
+
+<br/>
+
+### 031 Looping through the Tabs
