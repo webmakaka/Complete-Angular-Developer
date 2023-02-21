@@ -9,7 +9,10 @@
   >
     <!-- Modal BG Overlay -->
     <div class="fixed inset-0 transition-opacity">
-      <div class="absolute inset-0 bg-gray-800 opacity-75"></div>
+      <div
+        class="absolute inset-0 bg-gray-800 opacity-75"
+        (click)="closeModal()"
+      ></div>
     </div>
 
     <!-- This element is to trick the browser into centering the modal contents. -->
@@ -27,7 +30,9 @@
           <ng-content select="[heading]"> </ng-content>
 
           <!-- Modal Close Button -->
-          <div class="modal-close cursor-pointer z-50">&#x2715;</div>
+          <div class="modal-close cursor-pointer z-50" (click)="closeModal()">
+            &#x2715;
+          </div>
         </div>
 
         <ng-content></ng-content>

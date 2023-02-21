@@ -145,3 +145,7 @@ $ ng generate service services/modal
 <br/>
 
 ### 019 Opening the Modal
+
+<br/>
+
+### 020 Closing the Modal
