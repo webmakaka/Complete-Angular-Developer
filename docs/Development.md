@@ -181,3 +181,7 @@ $ ng generate service services/modal
 <br/>
 
 ### 026 Fixing the memory leak
+
+<br/>
+
+### 027 CSS Issues
