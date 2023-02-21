@@ -185,3 +185,12 @@ $ ng generate service services/modal
 <br/>
 
 ### 027 CSS Issues
+
+<br/>
+
+### 028 Creating a Tabs Component
+
+```
+$ ng generate component shared/TabsContainer
+$ ng generate component shared/Tab
+```
