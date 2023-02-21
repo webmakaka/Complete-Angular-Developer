@@ -117,3 +117,7 @@ $ ng generate component shared/modal
 <br/>
 
 ![Application](/img/pic-m06-p05.png?raw=true)
+
+<br/>
+
+### 014 Multi-slot Content Projection
