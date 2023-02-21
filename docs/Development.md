@@ -194,3 +194,11 @@ $ ng generate service services/modal
 $ ng generate component shared/TabsContainer
 $ ng generate component shared/Tab
 ```
+
+<br/>
+
+### 029 The ContentChildren Decorator
+
+<br/>
+
+### 030 The QueryList Object
