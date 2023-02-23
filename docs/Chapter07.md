@@ -32,3 +32,23 @@ $ ng generate component user/register
 <br/>
 
 ![Application](/img/pic-m07-p02.png?raw=true)
+
+<br/>
+
+### 005 Binding a Form
+
+<br/>
+
+### 006 Form Validation
+
+<br/>
+
+### 007 Understanding Errors
+
+<br/>
+
+### 008 Handling Errors
+
+<br/>
+
+![Application](/img/pic-m07-p03.png?raw=true)

@@ -1,13 +1,31 @@
 <!-- Registration Form -->
-<form>
+<form [formGroup]="registerForm">
   <!-- Name -->
   <div class="mb-3">
     <label class="inline-block mb-2">Name</label>
     <input
+      formControlName="name"
       type="text"
       class="block w-full py-1.5 px-3 text-gray-200 border border-gray-400 transition duration-500 focus:outline-none rounded bg-transparent focus:border-indigo-400"
       placeholder="Enter Name"
+      minlength="3"
     />
+    <p
+      *ngIf="registerForm.controls.name.errors?.['required']"
+      class="text-red-400"
+    >
+      Field is required!
+    </p>
+    <p
+      *ngIf="registerForm.controls.name.errors?.['minlength']"
+      class="text-red-400"
+    >
+      The value you inputted is
+      {{ registerForm.controls.name.errors?.['minlength'].actualLength }}
+      characters long! It must be at least
+      {{ registerForm.controls.name.errors?.['minlength'].requiredLength }}
+      characters long!
+    </p>
   </div>
   <!-- Email -->
   <div class="mb-3">
