@@ -52,3 +52,23 @@ $ ng generate component user/register
 <br/>
 
 ![Application](/img/pic-m07-p03.png?raw=true)
+
+<br/>
+
+### 009 Form Controller Status
+
+<br/>
+
+### 010 Designing an Input Component
+
+```
+$ ng generate component shared/input
+```
+
+<br/>
+
+### 011 Binding Form Controls
+
+<br/>
+
+### 012 Updating the Template
