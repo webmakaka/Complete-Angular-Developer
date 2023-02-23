@@ -24,3 +24,11 @@ $ ng generate component user/register
 <br/>
 
 ![Application](/img/pic-m07-p01.png?raw=true)
+
+<br/>
+
+### 004 Adding Form Controls
+
+<br/>
+
+![Application](/img/pic-m07-p02.png?raw=true)
