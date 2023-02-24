@@ -5,6 +5,10 @@
   [placeholder]="placeholder"
 />
 <ng-container *ngIf="control.touched && control.dirty">
+  <p *ngIf="control.errors?.['pattern']" class="text-red-400">
+    Password must be at least 8 characters long, have 1 uppercase letter, 1
+    lowercase letter, and 1 number!
+  </p>
   <p *ngIf="control.errors?.['required']" class="text-red-400">
     Field is required!
   </p>

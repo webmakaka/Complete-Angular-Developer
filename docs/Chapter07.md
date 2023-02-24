@@ -81,3 +81,8 @@ $ ng generate component shared/input
 
 ### 014 Validating Numbers
 
+<br/>
+
+### 015 Validating Passwords with Patterns
+
+https://regexr.com/3bfsi
