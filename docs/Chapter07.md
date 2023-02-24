@@ -72,3 +72,7 @@ $ ng generate component shared/input
 <br/>
 
 ### 012 Updating the Template
+
+<br/>
+
+### 013 Validating Emails
