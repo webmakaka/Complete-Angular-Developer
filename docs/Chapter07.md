@@ -98,3 +98,23 @@ $ npm install ngx-mask@12 --save-dev
 <br/>
 
 ### 017 Applying Input Masking
+
+<br/>
+
+### 018 Disabling Buttons
+
+<br/>
+
+### 019 Handling Form Submission
+
+<br/>
+
+### 020 Designing an Alert Component
+
+```
+$ ng generate component shared/alert
+```
+
+<br/>
+
+![Application](/img/pic-m07-p04.png?raw=true)
