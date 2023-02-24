@@ -76,3 +76,8 @@ $ ng generate component shared/input
 <br/>
 
 ### 013 Validating Emails
+
+<br/>
+
+### 014 Validating Numbers
+
