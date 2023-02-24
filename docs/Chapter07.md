@@ -86,3 +86,15 @@ $ ng generate component shared/input
 ### 015 Validating Passwords with Patterns
 
 https://regexr.com/3bfsi
+
+<br/>
+
+### 016 Input Masking
+
+```
+$ npm install ngx-mask@12 --save-dev
+```
+
+<br/>
+
+### 017 Applying Input Masking
