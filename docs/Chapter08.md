@@ -37,3 +37,11 @@ https://regexr.com/2rhq7
 <br/>
 
 ![Application](/img/pic-m08-p03.png?raw=true)
+
+<br/>
+
+### 006 Handling Error Messages
+
+<br/>
+
+![Application](/img/pic-m08-p04.png?raw=true)
