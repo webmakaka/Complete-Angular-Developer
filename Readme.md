@@ -52,3 +52,5 @@ Package                      Version
 ### [06 Master Project Component Design](./docs/Chapter06.md)
 
 ### [07 Master Project Reactive Forms](./docs/Chapter07.md)
+
+### [08 Master Project Template Forms](./docs/Chapter08.md)
