@@ -53,3 +53,11 @@ https://regexr.com/2rhq7
 <br/>
 
 ![Application](/img/pic-m08-p05.png?raw=true)
+
+<br/>
+
+### 008 Handling Form Submission
+
+<br/>
+
+![Application](/img/pic-m08-p06.png?raw=true)
