@@ -45,3 +45,11 @@ https://regexr.com/2rhq7
 <br/>
 
 ![Application](/img/pic-m08-p04.png?raw=true)
+
+<br/>
+
+### 007 Preparing the Password Field
+
+<br/>
+
+![Application](/img/pic-m08-p05.png?raw=true)
