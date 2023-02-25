@@ -1,5 +1,5 @@
 <!-- Login Form -->
-<form>
+<form #loginForm="ngForm">
   <!-- Email -->
   <div class="mb-3">
     <label class="inline-block mb-2">Email</label>
@@ -9,6 +9,8 @@
       [(ngModel)]="credentials.email"
       class="block w-full py-1.5 px-3 text-gray-200 border border-gray-400 transition duration-500 focus:outline-none rounded bg-transparent focus:border-indigo-400"
       placeholder="Enter Email"
+      required
+      pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
     />
   </div>
   <!-- Password -->
@@ -27,3 +29,4 @@
     Submit
   </button>
 </form>
+<div>{{ loginForm.valid }}</div>

@@ -23,3 +23,17 @@
 <br/>
 
 ![Application](/img/pic-m08-p02.png?raw=true)
+
+<br/>
+
+### 004 Template Variables
+
+<br/>
+
+### 005 Attribute Validation
+
+https://regexr.com/2rhq7
+
+<br/>
+
+![Application](/img/pic-m08-p03.png?raw=true)
