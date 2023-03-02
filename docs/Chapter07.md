@@ -2,7 +2,7 @@
 
 <br/>
 
-## 07 Master Project Reactive Forms
+## 07 Reactive Forms
 
 <br/>
 

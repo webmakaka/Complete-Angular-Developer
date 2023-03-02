@@ -49,8 +49,12 @@ Package                      Version
 
 ## Development
 
-### [06 Master Project Component Design](./docs/Chapter06.md)
+### [06 Component Design](./docs/Chapter06.md)
 
-### [07 Master Project Reactive Forms](./docs/Chapter07.md)
+### [07 Reactive Forms](./docs/Chapter07.md)
 
-### [08 Master Project Template Forms](./docs/Chapter08.md)
+### [08 Template Forms](./docs/Chapter08.md)
+
+### [09 Intro to RxJS]
+
+### [10 Authentication](./docs/Chapter10.md)

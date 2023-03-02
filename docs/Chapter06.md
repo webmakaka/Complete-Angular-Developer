@@ -2,7 +2,7 @@
 
 <br/>
 
-## 06 Master Project Component Design
+## 06 Component Design
 
 <br/>
 
