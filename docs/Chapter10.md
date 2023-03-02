@@ -69,3 +69,41 @@ What features would you like to setup? [do not select anything]
 ```
 $ ng generate environments
 ```
+
+<br/>
+
+### 005 User Registration
+
+Authentication
+
+<br/>
+
+![Application](/img/pic-m10-p11.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m10-p12.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m10-p13.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m10-p14.png?raw=true)
+
+<br/>
+
+[AngularFire-Authentication](https://github.com/angular/angularfire/blob/master/docs/auth/getting-started.md)
+
+<br/>
+
+### 006 Handling the Response
+
+<br/>
+
+![Application](/img/pic-m10-p15.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m10-p16.png?raw=true)
