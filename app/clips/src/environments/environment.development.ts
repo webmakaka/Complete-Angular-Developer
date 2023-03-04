@@ -5,6 +5,7 @@ export const environment = {
     authDomain: 'complete-angular-developer.firebaseapp.com',
     projectId: 'complete-angular-developer',
     storageBucket: 'complete-angular-developer.appspot.com',
+    messagingSenderId: '765391666277',
     appId: '1:765391666277:web:0d3dd8145586c19d56da8c',
   },
 };

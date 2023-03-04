@@ -107,3 +107,42 @@ Authentication
 <br/>
 
 ![Application](/img/pic-m10-p16.png?raw=true)
+
+<br/>
+
+### 007 Buckets, Collections, and Documents
+
+<br/>
+
+### 008 Storing User Data
+
+workaround
+
+add
+
+```
+    "skipLibCheck": true,
+```
+
+to tsconfig.json
+
+<br/>
+
+![Application](/img/pic-m10-p17.png?raw=true)
+
+<br/>
+
+```js
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.time > timestamp.date(2020,9,10);
+    }
+  }
+}
+```
+
+<br/>
+
+![Application](/img/pic-m10-p18.png?raw=true)
