@@ -121,7 +121,7 @@ workaround
 add
 
 ```
-    "skipLibCheck": true,
+"skipLibCheck": true,
 ```
 
 to tsconfig.json
@@ -146,3 +146,21 @@ service cloud.firestore {
 <br/>
 
 ![Application](/img/pic-m10-p18.png?raw=true)
+
+<br/>
+
+### 008 Storing User Data
+
+<br/>
+
+```
+$ ng generate service services/auth
+```
+
+<br/>
+
+### 009 Refactoring to a Service
+
+<br/>
+
+### 010 Interfaces vs. Classes
