@@ -164,3 +164,7 @@ $ ng generate service services/auth
 <br/>
 
 ### 010 Interfaces vs. Classes
+
+<br/>
+
+### 011 Collection Types
