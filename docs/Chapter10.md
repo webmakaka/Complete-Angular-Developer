@@ -168,3 +168,7 @@ $ ng generate service services/auth
 <br/>
 
 ### 011 Collection Types
+
+<br/>
+
+### 012 Connecting the User with their Data
