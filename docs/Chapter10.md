@@ -232,3 +232,11 @@ from firebase delete created users and documents
 <br/>
 
 ![Application](/img/pic-m10-p22.png?raw=true)
+
+<br/>
+
+### 020 Destroying the Modal
+
+<br/>
+
+### 021 The Delay Operator
