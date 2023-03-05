@@ -212,3 +212,7 @@ from firebase delete created users and documents
 <br/>
 
 ![Application](/img/pic-m10-p19.png?raw=true)
+
+<br/>
+
+### 018 Initializing Firebase First
