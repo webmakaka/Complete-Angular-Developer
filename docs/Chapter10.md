@@ -216,3 +216,19 @@ from firebase delete created users and documents
 <br/>
 
 ### 018 Initializing Firebase First
+
+<br/>
+
+### 019 Setting up the Login
+
+<br/>
+
+![Application](/img/pic-m10-p20.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m10-p21.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m10-p22.png?raw=true)
