@@ -240,3 +240,7 @@ from firebase delete created users and documents
 <br/>
 
 ### 021 The Delay Operator
+
+<br/>
+
+### 022 Signing Out
