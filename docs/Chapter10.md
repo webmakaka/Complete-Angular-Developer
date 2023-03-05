@@ -172,3 +172,43 @@ $ ng generate service services/auth
 <br/>
 
 ### 012 Connecting the User with their Data
+
+<br/>
+
+### 013 Database Rules
+
+<br/>
+
+```js
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read: if true;
+      allow write: if request.auth.uid != null;
+    }
+  }
+}
+```
+
+<br/>
+
+### 014 Understanding Authentication
+
+<br/>
+
+### 015 Authentication after Registration
+
+from firebase delete created users and documents
+
+<br/>
+
+### 016 The User Observable
+
+<br/>
+
+### 017 The Async Pipe
+
+<br/>
+
+![Application](/img/pic-m10-p19.png?raw=true)
