@@ -244,3 +244,7 @@ from firebase delete created users and documents
 <br/>
 
 ### 022 Signing Out
+
+<br/>
+
+### 023 Sidebar JSON Web Tokens

@@ -2,6 +2,10 @@
 
 <br/>
 
+[Deployed Project](//complete-angular-developer.jsdev.org)
+
+<br/>
+
 ```
 $ node -v
 v18.14.0
@@ -62,3 +66,5 @@ Package                      Version
 ### [09 Intro to RxJS]
 
 ### [10 Authentication](./docs/Chapter10.md)
+
+### [11 Custom Validators](./docs/Chapter11.md)
