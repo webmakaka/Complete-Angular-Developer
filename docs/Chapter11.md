@@ -19,3 +19,7 @@ $ ng generate class user/validators/RegisterValidators
 <br/>
 
 ### 003 Validating Passwords
+
+<br/>
+
+### 004 Factory Functions
