@@ -23,3 +23,11 @@ $ ng generate class user/validators/RegisterValidators
 <br/>
 
 ### 004 Factory Functions
+
+<br/>
+
+### 005 Handling Errors
+
+<br/>
+
+![Application](/img/pic-m11-p01.png?raw=true)
