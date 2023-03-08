@@ -58,3 +58,7 @@ $ ng generate component video/Manage
 <br/>
 
 ![Application](/img/pic-m12-p03.png?raw=true)
+
+<br/>
+
+### 008 Forcing Redirection
