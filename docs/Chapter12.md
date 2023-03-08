@@ -66,3 +66,15 @@ $ ng generate component video/Manage
 <br/>
 
 ### 009 A Quick Refactor
+
+<br/>
+
+### 010 Adding Route Data
+
+<br/>
+
+### 011 Filtering Router Events
+
+<br/>
+
+### 012 Retrieving Data Outside of the Outlet

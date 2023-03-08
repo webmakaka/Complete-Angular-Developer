@@ -6,6 +6,9 @@ const routes: Routes = [
   {
     path: 'manage',
     component: ManageComponent,
+    data: {
+      authOnly: true
+    }
   },
 ];
 
