@@ -19,3 +19,17 @@
 ```
 $ ng generate component Home
 ```
+
+<br/>
+
+### 004 Exercise Registering a Route
+
+```
+$ ng generate component About
+```
+
+http://localhost:4200/about
+
+<br/>
+
+![Application](/img/pic-m12-p01.png?raw=true)

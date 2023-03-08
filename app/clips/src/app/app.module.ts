@@ -10,9 +10,10 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { UserModule } from './user/user.module';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, HomeComponent],
+  declarations: [AppComponent, NavComponent, HomeComponent, AboutComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
