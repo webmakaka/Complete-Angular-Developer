@@ -33,3 +33,15 @@ http://localhost:4200/about
 <br/>
 
 ![Application](/img/pic-m12-p01.png?raw=true)
+
+<br/>
+
+### 005 Adding Navigation Links
+
+<br/>
+
+### 006 Active Links
+
+<br/>
+
+![Application](/img/pic-m12-p02.png?raw=true)
