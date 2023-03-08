@@ -118,3 +118,19 @@ $ ng generate component clip
 <br/>
 
 ### 017 Learning More About Query Parameters
+
+<br/>
+
+### 018 Selecting an Option
+
+<br/>
+
+### 019 Wildcard Routes
+
+```
+$ ng generate component NotFound
+```
+
+<br/>
+
+![Application](/img/pic-m12-p07.png?raw=true)

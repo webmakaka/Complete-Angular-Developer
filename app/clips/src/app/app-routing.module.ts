@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from 'src/app/about/about.component';
 import { ClipComponent } from 'src/app/clip/clip.component';
 import { HomeComponent } from 'src/app/home/home.component';
+import { NotFoundComponent } from 'src/app/not-found/not-found.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'clip/:id',
     component: ClipComponent,
+  },
+  {
+    path: '**',
+    component: NotFoundComponent,
   },
 ];
 
