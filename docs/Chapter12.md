@@ -134,3 +134,11 @@ $ ng generate component NotFound
 <br/>
 
 ![Application](/img/pic-m12-p07.png?raw=true)
+
+<br/>
+
+### 020 Updating Routes
+
+redirect from
+
+http://localhost:4200/manage-clips
