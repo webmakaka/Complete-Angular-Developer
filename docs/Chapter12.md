@@ -114,3 +114,7 @@ $ ng generate component clip
 <br/>
 
 ![Application](/img/pic-m12-p06.png?raw=true)
+
+<br/>
+
+### 017 Learning More About Query Parameters

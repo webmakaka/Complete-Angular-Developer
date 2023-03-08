@@ -19,6 +19,11 @@ export class ManageComponent implements OnInit {
 
   sort(event: Event) {
     const { value } = event.target as HTMLSelectElement;
-    this.router.navigateByUrl(`/manage?sort=${value}`);
+    this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: {
+        sort: value,
+      },
+    });
   }
 }
