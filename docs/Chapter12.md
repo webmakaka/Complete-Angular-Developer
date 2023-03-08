@@ -142,3 +142,7 @@ $ ng generate component NotFound
 redirect from
 
 http://localhost:4200/manage-clips
+
+<br/>
+
+### 021 Route Guards
