@@ -62,3 +62,7 @@ $ ng generate component video/Manage
 <br/>
 
 ### 008 Forcing Redirection
+
+<br/>
+
+### 009 A Quick Refactor
