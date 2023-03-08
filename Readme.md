@@ -63,8 +63,10 @@ Package                      Version
 
 ### [08 Template Forms](./docs/Chapter08.md)
 
-### [09 Intro to RxJS]
+### 09 Intro to RxJS
 
 ### [10 Authentication](./docs/Chapter10.md)
 
 ### [11 Custom Validators](./docs/Chapter11.md)
+
+### [12 Routing](./docs/Chapter12.md)
