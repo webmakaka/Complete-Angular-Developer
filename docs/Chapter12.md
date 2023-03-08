@@ -102,3 +102,7 @@ $ ng generate component clip
 <br/>
 
 ![Application](/img/pic-m12-p05.png?raw=true)
+
+<br/>
+
+### 015 Subscribing to Route Parameters
