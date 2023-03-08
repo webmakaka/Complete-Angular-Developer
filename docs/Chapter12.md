@@ -45,3 +45,16 @@ http://localhost:4200/about
 <br/>
 
 ![Application](/img/pic-m12-p02.png?raw=true)
+
+<br/>
+
+### 007 Generating a Routing Module
+
+```
+$ ng generate module Video --routing
+$ ng generate component video/Manage
+```
+
+<br/>
+
+![Application](/img/pic-m12-p03.png?raw=true)

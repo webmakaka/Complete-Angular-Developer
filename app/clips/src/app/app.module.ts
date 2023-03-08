@@ -4,13 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { VideoModule } from 'src/app/video/video.module';
 import { environment } from 'src/environments/environment';
+import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { UserModule } from './user/user.module';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [AppComponent, NavComponent, HomeComponent, AboutComponent],
@@ -21,6 +22,7 @@ import { AboutComponent } from './about/about.component';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFirestoreModule,
+    VideoModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
