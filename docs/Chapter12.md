@@ -90,3 +90,15 @@ $ ng generate component video/upload
 <br/>
 
 ![Application](/img/pic-m12-p04.png?raw=true)
+
+<br/>
+
+### 014 Route Parameters
+
+```
+$ ng generate component clip
+```
+
+<br/>
+
+![Application](/img/pic-m12-p05.png?raw=true)

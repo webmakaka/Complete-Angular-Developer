@@ -12,9 +12,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { UserModule } from './user/user.module';
+import { ClipComponent } from './clip/clip.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, HomeComponent, AboutComponent],
+  declarations: [AppComponent, NavComponent, HomeComponent, AboutComponent, ClipComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
