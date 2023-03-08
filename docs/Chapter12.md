@@ -78,3 +78,15 @@ $ ng generate component video/Manage
 <br/>
 
 ### 012 Retrieving Data Outside of the Outlet
+
+<br/>
+
+### 013 Exercise Registering a Route with Data
+
+```
+$ ng generate component video/upload
+```
+
+<br/>
+
+![Application](/img/pic-m12-p04.png?raw=true)
