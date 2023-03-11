@@ -27,3 +27,7 @@ $ ng generate directive shared/directives/EventBlocker
 <br/>
 
 ### 005 Multi Step Form
+
+<br/>
+
+### 006 The Upload Form
