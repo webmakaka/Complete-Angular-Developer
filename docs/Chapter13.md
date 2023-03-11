@@ -15,3 +15,15 @@
 ```
 $ ng generate directive shared/directives/EventBlocker
 ```
+
+<br/>
+
+### 003 Handling Drag and Drop Events
+
+<br/>
+
+### 004 Handling Files
+
+<br/>
+
+### 005 Multi Step Form
