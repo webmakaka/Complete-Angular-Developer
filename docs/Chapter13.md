@@ -51,3 +51,31 @@ $ npm install uuid @types/uuid
 <br/>
 
 ![Application](/img/pic-m13-p03.png?raw=true)
+
+<br/>
+
+### 008 Firebase Rules and Validation
+
+Storage -> Rules
+
+```js
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+      request.resource.contentType == 'video/mp4' &&
+      request.resource.size < 10 * 1000 * 1000;
+    }
+  }
+}
+```
+
+<br/>
+
+### 009 Adding an Alert Component
+
+<br/>
+
+![Application](/img/pic-m13-p04.png?raw=true)
