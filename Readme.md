@@ -70,3 +70,5 @@ Package                      Version
 ### [11 Custom Validators](./docs/Chapter11.md)
 
 ### [12 Routing](./docs/Chapter12.md)
+
+### [13 Uploading Files](./docs/Chapter13.md)
