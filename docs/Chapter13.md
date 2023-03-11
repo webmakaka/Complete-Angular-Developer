@@ -79,3 +79,11 @@ service firebase.storage {
 <br/>
 
 ![Application](/img/pic-m13-p04.png?raw=true)
+
+<br/>
+
+### 010 Upload Progress Observable
+
+<br/>
+
+![Application](/img/pic-m13-p05.png?raw=true)
