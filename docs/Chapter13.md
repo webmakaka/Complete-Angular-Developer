@@ -127,3 +127,11 @@ $ ng generate service services/clip
 <br/>
 
 ### 017 Canceling Uploads
+
+<br/>
+
+### 018 Redirection after Upload
+
+<br/>
+
+![Application](/img/pic-m13-p08.png?raw=true)
