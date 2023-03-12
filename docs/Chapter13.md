@@ -135,3 +135,11 @@ $ ng generate service services/clip
 <br/>
 
 ![Application](/img/pic-m13-p08.png?raw=true)
+
+<br/>
+
+### 019 Storing a Timestamp
+
+<br/>
+
+![Application](/img/pic-m13-p09.png?raw=true)
