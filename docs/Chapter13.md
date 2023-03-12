@@ -119,3 +119,7 @@ $ ng generate service services/clip
 <br/>
 
 ### 015 Disabling Forms
+
+<br/>
+
+### 016 Fallback Upload
