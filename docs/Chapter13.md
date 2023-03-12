@@ -87,3 +87,11 @@ service firebase.storage {
 <br/>
 
 ![Application](/img/pic-m13-p05.png?raw=true)
+
+<br/>
+
+### 011 Handling Errors and Successful Uploads
+
+<br/>
+
+![Application](/img/pic-m13-p06.png?raw=true)
