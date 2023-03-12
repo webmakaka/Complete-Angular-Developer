@@ -95,3 +95,19 @@ service firebase.storage {
 <br/>
 
 ![Application](/img/pic-m13-p06.png?raw=true)
+
+<br/>
+
+### 012 Storing the File Data
+
+<br/>
+
+### 013 Adding the File Data to the Database
+
+```
+$ ng generate service services/clip
+```
+
+<br/>
+
+![Application](/img/pic-m13-p07.png?raw=true)
