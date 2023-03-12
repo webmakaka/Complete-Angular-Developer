@@ -1,6 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
-import { AngularFireStorage } from '@angular/fire/compat/storage';
+import {
+  AngularFireStorage,
+  AngularFireUploadTask,
+} from '@angular/fire/compat/storage';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import firebase from 'firebase/compat/app';
 import { last, switchMap } from 'rxjs/operators';
@@ -12,7 +15,7 @@ import { v4 as uuid } from 'uuid';
   templateUrl: './upload.component.html',
   styleUrls: ['./upload.component.css'],
 })
-export class UploadComponent {
+export class UploadComponent implements OnDestroy {
   isDragover = false;
   file: File | null = null;
   nextStep = false;
@@ -23,6 +26,7 @@ export class UploadComponent {
   percentage = 0;
   showPercentage = false;
   user: firebase.User | null = null;
+  task?: AngularFireUploadTask;
 
   title = new FormControl('', {
     validators: [Validators.required, Validators.minLength(3)],
@@ -39,6 +43,10 @@ export class UploadComponent {
     private clipsService: ClipService
   ) {
     auth.user.subscribe((user) => (this.user = user));
+  }
+
+  ngOnDestroy(): void {
+    this.task?.cancel();
   }
 
   storeFile($event: Event) {
@@ -68,14 +76,14 @@ export class UploadComponent {
     const clipFileName = uuid();
     const clipPath = `clips/${clipFileName}.mp4`;
 
-    const task = this.storage.upload(clipPath, this.file);
+    this.task = this.storage.upload(clipPath, this.file);
     const clipRef = this.storage.ref(clipPath);
 
-    task.percentageChanges().subscribe((progress) => {
+    this.task.percentageChanges().subscribe((progress) => {
       this.percentage = (progress as number) / 100;
     });
 
-    task
+    this.task
       .snapshotChanges()
       .pipe(
         last(),

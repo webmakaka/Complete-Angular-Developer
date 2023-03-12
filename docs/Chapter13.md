@@ -123,3 +123,7 @@ $ ng generate service services/clip
 <br/>
 
 ### 016 Fallback Upload
+
+<br/>
+
+### 017 Canceling Uploads
