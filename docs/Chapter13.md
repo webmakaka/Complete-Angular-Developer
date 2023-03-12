@@ -111,3 +111,11 @@ $ ng generate service services/clip
 <br/>
 
 ![Application](/img/pic-m13-p07.png?raw=true)
+
+<br/>
+
+### 014 Firebase References and Snapshots
+
+<br/>
+
+### 015 Disabling Forms
