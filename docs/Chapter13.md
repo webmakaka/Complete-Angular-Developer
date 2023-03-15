@@ -143,3 +143,19 @@ $ ng generate service services/clip
 <br/>
 
 ![Application](/img/pic-m13-p09.png?raw=true)
+
+<br/>
+
+### 020 Querying the Database
+
+<br/>
+
+### 021 Storing the List of Clips
+
+<br/>
+
+### 022 Displaying the List of Clips
+
+<br/>
+
+![Application](/img/pic-m13-p10.png?raw=true)
