@@ -191,3 +191,24 @@ $ ng generate component video/edit
 <br/>
 
 ### 027 Updating the List of Clips
+
+<br/>
+
+### 028 Deleting a Clip from the StorageDatabase
+
+Storage -> Rules
+
+```js
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+      request.resource.contentType == 'video/mp4' &&
+      request.resource.size < 10 * 1000 * 1000;
+      allow delete: if request.auth != null;
+    }
+  }
+}
+```
