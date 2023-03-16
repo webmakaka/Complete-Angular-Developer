@@ -187,3 +187,7 @@ $ ng generate component video/edit
 <br/>
 
 ![Application](/img/pic-m13-p12.png?raw=true)
+
+<br/>
+
+### 027 Updating the List of Clips
