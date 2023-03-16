@@ -171,3 +171,11 @@ $ ng generate component video/edit
 <br/>
 
 ![Application](/img/pic-m13-p11.png?raw=true)
+
+<br/>
+
+### 024 Passing on the Clip Data
+
+<br/>
+
+### 025 Binding the Edit Form
