@@ -159,3 +159,15 @@ $ ng generate service services/clip
 <br/>
 
 ![Application](/img/pic-m13-p10.png?raw=true)
+
+<br/>
+
+### 023 Preparing the Form
+
+```
+$ ng generate component video/edit
+```
+
+<br/>
+
+![Application](/img/pic-m13-p11.png?raw=true)
