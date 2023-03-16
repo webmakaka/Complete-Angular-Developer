@@ -212,3 +212,42 @@ service firebase.storage {
   }
 }
 ```
+
+<br/>
+
+### 029 Sorting Clips with Behavior Subjects
+
+```
+// OK!
+ERROR FirebaseError: The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/complete-angular-developer/firestore/indexes
+```
+
+<br/>
+
+### 030 Composite Indexes
+
+Firestore Database -> Indexes -> Create index
+
+<br/>
+
+![Application](/img/pic-m13-p13.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m13-p14.png?raw=true)
+
+<br/>
+
+Wait for a few minutes
+
+<br/>
+
+![Application](/img/pic-m13-p15.png?raw=true)
+
+<br/>
+
+**Upload new videos!**
+
+<br/>
+
+![Application](/img/pic-m13-p16.gif?raw=true)
