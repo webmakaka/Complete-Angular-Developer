@@ -50,3 +50,7 @@ $ ng generate service services/ffmpeg
 <br/>
 
 ![Application](/img/pic-m15-p03.png?raw=true)
+
+<br/>
+
+### 007 Saving Files in Memory
