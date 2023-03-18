@@ -66,7 +66,7 @@ service firebase.storage {
       allow read: if true;
       allow write: if request.auth != null &&
       request.resource.contentType == 'video/mp4' &&
-      request.resource.size < 10 * 1000 * 1000;
+      request.resource.size < 20 * 1000 * 1000;
     }
   }
 }
@@ -206,7 +206,7 @@ service firebase.storage {
       allow read: if true;
       allow write: if request.auth != null &&
       request.resource.contentType == 'video/mp4' &&
-      request.resource.size < 10 * 1000 * 1000;
+      request.resource.size < 20 * 1000 * 1000;
       allow delete: if request.auth != null;
     }
   }

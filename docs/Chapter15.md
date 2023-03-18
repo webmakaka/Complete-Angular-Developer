@@ -54,3 +54,17 @@ $ ng generate service services/ffmpeg
 <br/>
 
 ### 007 Saving Files in Memory
+
+<br/>
+
+### 008 Generating a Screenshot
+
+https://test-videos.co.uk/bigbuckbunny/mp4-h264
+
+<br/>
+
+![Application](/img/pic-m15-p04.png?raw=true)
+
+<br/>
+
+### 009 Generating Multiple Screenshots
