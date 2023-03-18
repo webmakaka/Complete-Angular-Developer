@@ -68,3 +68,7 @@ https://test-videos.co.uk/bigbuckbunny/mp4-h264
 <br/>
 
 ### 009 Generating Multiple Screenshots
+
+<br/>
+
+### 010 Creating Screenshot URLs
