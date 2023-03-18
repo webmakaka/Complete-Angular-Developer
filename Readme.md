@@ -72,3 +72,7 @@ Package                      Version
 ### [12 Routing](./docs/Chapter12.md)
 
 ### [13 Uploading Files](./docs/Chapter13.md)
+
+### 14 WebAssembly & Rust
+
+### [15 Processing Videos with FFmpeg](./docs/Chapter15.md)
