@@ -98,3 +98,32 @@ $ ng generate pipe video/pipes/safeURL
 <br/>
 
 ![Application](/img/pic-m15-p07.png?raw=true)
+
+<br/>
+
+### 014 Updating the Firebase Storage Rules
+
+Storage -> Rules
+
+```js
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+      (request.resource.contentType == 'video/mp4' || request.resource.contentType == 'image/png') &&
+      request.resource.size < 25 * 1000 * 1000;
+      allow delete: if request.auth != null;
+    }
+  }
+}
+```
+
+<br/>
+
+### 015 Uploading a Blob
+
+<br/>
+
+![Application](/img/pic-m15-p08.png?raw=true)

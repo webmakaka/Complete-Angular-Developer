@@ -31,6 +31,7 @@ export class UploadComponent implements OnDestroy {
   public task?: AngularFireUploadTask;
   public screenshots: string[] = [];
   public selectedScreenshot = '';
+  public screenshotTask?: AngularFireUploadTask;
 
   title = new FormControl('', {
     validators: [Validators.required, Validators.minLength(3)],
@@ -73,13 +74,13 @@ export class UploadComponent implements OnDestroy {
 
     this.screenshots = await this.ffmpegService.getScreenshots(this.file);
 
-    this.selectedScreenshot = this.selectedScreenshot[0];
+    this.selectedScreenshot = this.screenshots[0];
 
     this.title.setValue(this.file.name.replace(/\.[^/.]+$/, ''));
     this.nextStep = true;
   }
 
-  uploadFile() {
+  async uploadFile() {
     this.uploadForm.disable();
 
     this.showAlert = true;
@@ -91,8 +92,28 @@ export class UploadComponent implements OnDestroy {
     const clipFileName = uuid();
     const clipPath = `clips/${clipFileName}.mp4`;
 
+    const screenshotBlob = await this.ffmpegService.blobFromURL(
+      this.selectedScreenshot
+    );
+
+    const screenshotPath = `screenshots/${clipFileName}.png`;
+
     this.task = this.storage.upload(clipPath, this.file);
     const clipRef = this.storage.ref(clipPath);
+
+    console.log('screenshots');
+    console.log(this.screenshots);
+
+    console.log('selectedScreenshot');
+    console.log(this.selectedScreenshot);
+
+    console.log('screenshotPath');
+    console.log(screenshotPath);
+
+    console.log('screenshotBlob');
+    console.log(screenshotBlob);
+
+    this.screenshotTask = this.storage.upload(screenshotPath, screenshotBlob);
 
     this.task.percentageChanges().subscribe((progress) => {
       this.percentage = (progress as number) / 100;
