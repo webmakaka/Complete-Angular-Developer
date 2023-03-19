@@ -55,6 +55,11 @@ Package                      Version
 
 <br/>
 
+**Video samples for download:**  
+https://test-videos.co.uk/bigbuckbunny/mp4-h264
+
+<br/>
+
 ## Development
 
 ### [06 Component Design](./docs/Chapter06.md)

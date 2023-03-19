@@ -59,8 +59,6 @@ $ ng generate service services/ffmpeg
 
 ### 008 Generating a Screenshot
 
-https://test-videos.co.uk/bigbuckbunny/mp4-h264
-
 <br/>
 
 ![Application](/img/pic-m15-p04.png?raw=true)
@@ -84,3 +82,11 @@ $ ng generate pipe video/pipes/safeURL
 <br/>
 
 ![Application](/img/pic-m15-p05.png?raw=true)
+
+<br/>
+
+### 012 Adding Feedback
+
+<br/>
+
+![Application](/img/pic-m15-p06.png?raw=true)
