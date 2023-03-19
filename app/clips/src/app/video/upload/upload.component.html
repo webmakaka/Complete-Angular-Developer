@@ -44,14 +44,11 @@
           <!-- Screenshots -->
           <h2 class="mb-4 text-xl">Select a Thumbnail</h2>
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-            <div class="border-8 cursor-pointer border-green-400">
-              <img src="assets/img/1.jpg" />
-            </div>
-            <div class="border-8 cursor-pointer border-transparent">
-              <img src="assets/img/2.jpg" />
-            </div>
-            <div class="border-8 cursor-pointer border-transparent">
-              <img src="assets/img/3.jpg" />
+            <div
+              *ngFor="let screenshot of screenshots"
+              class="border-8 cursor-pointer border-green-400"
+            >
+              <img [src]="screenshot | safeURL" />
             </div>
           </div>
 

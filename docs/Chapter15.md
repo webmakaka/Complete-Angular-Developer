@@ -72,3 +72,15 @@ https://test-videos.co.uk/bigbuckbunny/mp4-h264
 <br/>
 
 ### 010 Creating Screenshot URLs
+
+<br/>
+
+### 011 Bypassing Sanitization with Pipes
+
+```
+$ ng generate pipe video/pipes/safeURL
+```
+
+<br/>
+
+![Application](/img/pic-m15-p05.png?raw=true)

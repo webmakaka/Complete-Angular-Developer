@@ -30,10 +30,6 @@ $ ng generate class user/validators/RegisterValidators
 
 <br/>
 
-![Application](/img/pic-m11-p01.png?raw=true)
-
-<br/>
-
 ### 006 Creating an Asynchronous Validator
 
 ```
@@ -50,4 +46,4 @@ $ ng generate class user/validators/EmailTaken
 
 <br/>
 
-![Application](/img/pic-m11-p02.png?raw=true)
+![Application](/img/pic-m11-p01.png?raw=true)
