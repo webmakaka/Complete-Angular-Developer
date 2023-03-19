@@ -131,3 +131,11 @@ service firebase.storage {
 <br/>
 
 ### 016 Recalculating the Upload Progress
+
+<br/>
+
+### 017 The forkJoin Operator
+
+<br/>
+
+![Application](/img/pic-m15-p09.png?raw=true)
