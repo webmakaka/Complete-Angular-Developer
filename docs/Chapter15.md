@@ -139,3 +139,7 @@ service firebase.storage {
 <br/>
 
 ![Application](/img/pic-m15-p09.png?raw=true)
+
+<br/>
+
+### 018 Deleting Screenshots
