@@ -18,18 +18,19 @@ import { v4 as uuid } from 'uuid';
   styleUrls: ['./upload.component.css'],
 })
 export class UploadComponent implements OnDestroy {
-  isDragover = false;
-  file: File | null = null;
-  nextStep = false;
-  showAlert = false;
-  alertColor = 'blue';
-  alertMsg = 'Please wait! Your clip is being uploaded!';
-  inSubmission = false;
-  percentage = 0;
-  showPercentage = false;
-  user: firebase.User | null = null;
-  task?: AngularFireUploadTask;
-  screenshots: string[] = [];
+  public isDragover = false;
+  public file: File | null = null;
+  public nextStep = false;
+  public showAlert = false;
+  public alertColor = 'blue';
+  public alertMsg = 'Please wait! Your clip is being uploaded!';
+  public inSubmission = false;
+  public percentage = 0;
+  public showPercentage = false;
+  public user: firebase.User | null = null;
+  public task?: AngularFireUploadTask;
+  public screenshots: string[] = [];
+  public selectedScreenshot = '';
 
   title = new FormControl('', {
     validators: [Validators.required, Validators.minLength(3)],
@@ -71,6 +72,8 @@ export class UploadComponent implements OnDestroy {
     }
 
     this.screenshots = await this.ffmpegService.getScreenshots(this.file);
+
+    this.selectedScreenshot = this.selectedScreenshot[0];
 
     this.title.setValue(this.file.name.replace(/\.[^/.]+$/, ''));
     this.nextStep = true;

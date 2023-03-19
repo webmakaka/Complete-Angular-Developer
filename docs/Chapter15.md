@@ -90,3 +90,11 @@ $ ng generate pipe video/pipes/safeURL
 <br/>
 
 ![Application](/img/pic-m15-p06.png?raw=true)
+
+<br/>
+
+### 013 Selecting a Screenshot
+
+<br/>
+
+![Application](/img/pic-m15-p07.png?raw=true)
