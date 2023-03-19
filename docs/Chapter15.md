@@ -127,3 +127,7 @@ service firebase.storage {
 <br/>
 
 ![Application](/img/pic-m15-p08.png?raw=true)
+
+<br/>
+
+### 016 Recalculating the Upload Progress

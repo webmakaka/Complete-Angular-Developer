@@ -7,6 +7,7 @@ import {
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import firebase from 'firebase/compat/app';
+import { combineLatest } from 'rxjs';
 import { last, switchMap } from 'rxjs/operators';
 import { ClipService } from 'src/app/services/clip.service';
 import { FfmpegService } from 'src/app/services/ffmpeg.service';
@@ -101,22 +102,20 @@ export class UploadComponent implements OnDestroy {
     this.task = this.storage.upload(clipPath, this.file);
     const clipRef = this.storage.ref(clipPath);
 
-    console.log('screenshots');
-    console.log(this.screenshots);
-
-    console.log('selectedScreenshot');
-    console.log(this.selectedScreenshot);
-
-    console.log('screenshotPath');
-    console.log(screenshotPath);
-
-    console.log('screenshotBlob');
-    console.log(screenshotBlob);
-
     this.screenshotTask = this.storage.upload(screenshotPath, screenshotBlob);
 
-    this.task.percentageChanges().subscribe((progress) => {
-      this.percentage = (progress as number) / 100;
+    combineLatest([
+      this.task.percentageChanges(),
+      this.screenshotTask.percentageChanges(),
+    ]).subscribe((progress) => {
+      const [clipProgress, sceenshotProgress] = progress;
+
+      if (!clipProgress || !sceenshotProgress) {
+        return;
+      }
+
+      const total = clipProgress + sceenshotProgress;
+      this.percentage = (total as number) / 200;
     });
 
     this.task
@@ -137,8 +136,6 @@ export class UploadComponent implements OnDestroy {
           };
 
           const clipDocRef = await this.clipsService.createClip(clip);
-
-          console.log(clip);
 
           this.alertColor = 'green';
           this.alertMsg =
