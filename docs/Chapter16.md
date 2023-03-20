@@ -64,7 +64,18 @@ $ gcloud auth login
 $ gsutil cors set cors.json gs://complete-angular-developer.appspot.com
 ```
 
-
 <br/>
 
 ![Application](/img/pic-m16-p03.png?raw=true)
+
+<br/>
+
+### 008 Fixing the Timestamp
+
+```
+$ ng generate pipe pipes/fbTimestamp
+```
+
+<br/>
+
+![Application](/img/pic-m16-p04.png?raw=true)
