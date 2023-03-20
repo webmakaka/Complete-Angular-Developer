@@ -15,3 +15,19 @@
 ```
 $ ng generate component ClipsList
 ```
+
+<br/>
+
+### 003 Handling Scroll Events
+
+<br/>
+
+### 004 Querying for Clips
+
+<br/>
+
+### 005 Rendering Clips on the Home page
+
+<br/>
+
+![Application](/img/pic-m16-p01.png?raw=true)
