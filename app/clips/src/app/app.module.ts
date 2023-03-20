@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { UserModule } from './user/user.module';
+import { ClipsListComponent } from './clips-list/clips-list.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { UserModule } from './user/user.module';
     AboutComponent,
     ClipComponent,
     NotFoundComponent,
+    ClipsListComponent,
   ],
   imports: [
     BrowserModule,

@@ -81,3 +81,5 @@ https://test-videos.co.uk/bigbuckbunny/mp4-h264
 ### 14 WebAssembly & Rust
 
 ### [15 Processing Videos with FFmpeg](./docs/Chapter15.md)
+
+### [16 Playing Videos](./docs/Chapter16.md)
