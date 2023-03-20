@@ -1,5 +1,5 @@
 import { DatePipe } from '@angular/common';
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { ClipService } from 'src/app/services/clip.service';
 
 @Component({
@@ -9,16 +9,24 @@ import { ClipService } from 'src/app/services/clip.service';
   providers: [DatePipe],
 })
 export class ClipsListComponent implements OnInit, OnDestroy {
+  @Input() scrollable = true;
+
   constructor(public clipsService: ClipService) {
     this.clipsService.getClips();
   }
 
   ngOnInit(): void {
-    window.addEventListener('scroll', this.handleScroll);
+    if (this.scrollable) {
+      window.addEventListener('scroll', this.handleScroll);
+    }
   }
 
   ngOnDestroy(): void {
-    window.removeEventListener('scroll', this.handleScroll);
+    if (this.scrollable) {
+      window.removeEventListener('scroll', this.handleScroll);
+    }
+
+    this.clipsService.pageClips = [];
   }
 
   handleScroll = () => {

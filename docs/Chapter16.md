@@ -79,3 +79,7 @@ $ ng generate pipe pipes/fbTimestamp
 <br/>
 
 ![Application](/img/pic-m16-p04.png?raw=true)
+
+<br/>
+
+### 009 Rendering Clips on the Clip Page
