@@ -35,3 +35,15 @@ service cloud.firestore {
 ### 003 Deploying an App with Vercel
 
 vercel.com
+
+<br/>
+
+![Application](/img/pic-m17-p01.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m17-p02.png?raw=true)
+
+<br/>
+
+![Application](/img/pic-m17-p03.png?raw=true)

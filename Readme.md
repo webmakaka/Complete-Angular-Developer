@@ -2,7 +2,7 @@
 
 <br/>
 
-[Deployed Project](//complete-angular-developer.jsdev.org)
+[Deployed Project](https://complete-angular-developer.vercel.app/)
 
 <br/>
 
