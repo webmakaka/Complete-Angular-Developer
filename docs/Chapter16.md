@@ -83,3 +83,29 @@ $ ng generate pipe pipes/fbTimestamp
 <br/>
 
 ### 009 Rendering Clips on the Clip Page
+
+<br/>
+
+### 010 Installing Videojs
+
+https://videojs.com/
+
+```
+$ npm install video.js@7.15.4 @types/video.js @videojs/themes
+```
+
+<br/>
+
+### 011 Selecting elements with the ViewChild Decorator
+
+<br/>
+
+### 012 Initializing the Video Player
+
+<br/>
+
+### 013 Styles without View Encapsulation
+
+<br/>
+
+![Application](/img/pic-m16-p05.png?raw=true)
