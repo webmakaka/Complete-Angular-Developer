@@ -109,3 +109,19 @@ $ npm install video.js@7.15.4 @types/video.js @videojs/themes
 <br/>
 
 ![Application](/img/pic-m16-p05.png?raw=true)
+
+<br/>
+
+### 014 Tailwind’s Aspect Ratio Classes
+
+<br/>
+
+### 015 Resolving Data with a Guard
+
+<br/>
+
+### 016 Dynamically Rendering the Video
+
+<br/>
+
+![Application](/img/pic-m16-p06.png?raw=true)

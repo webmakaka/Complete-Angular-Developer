@@ -4,6 +4,7 @@ import { AboutComponent } from 'src/app/about/about.component';
 import { ClipComponent } from 'src/app/clip/clip.component';
 import { HomeComponent } from 'src/app/home/home.component';
 import { NotFoundComponent } from 'src/app/not-found/not-found.component';
+import { ClipService } from 'src/app/services/clip.service';
 
 const routes: Routes = [
   {
@@ -17,6 +18,9 @@ const routes: Routes = [
   {
     path: 'clip/:id',
     component: ClipComponent,
+    resolve: {
+      clip: ClipService,
+    },
   },
   {
     path: '**',
