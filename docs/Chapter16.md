@@ -133,3 +133,7 @@ $ npm install video.js@7.15.4 @types/video.js @videojs/themes
 <br/>
 
 ![Application](/img/pic-m16-p07.png?raw=true)
+
+<br/>
+
+### 018 Copying Links to the Clipboard

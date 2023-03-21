@@ -36,8 +36,11 @@
       <!-- Body -->
       <div class="p-6 text-2xl">
         <!-- Link -->
-        <a href="#" class="font-bold mb-2"> {{ clip.title }} </a>
+        <a [routerLink]="['/', 'clip', clip.docID]" class="font-bold mb-2">
+          {{ clip.title }}
+        </a>
         <a
+          (click)="copyToClipboard($event, clip.docID)"
           href="#"
           class="bg-gray-400 text-white px-2 py-1 ml-2 text-sm rounded"
         >
