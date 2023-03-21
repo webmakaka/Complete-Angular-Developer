@@ -125,3 +125,11 @@ $ npm install video.js@7.15.4 @types/video.js @videojs/themes
 <br/>
 
 ![Application](/img/pic-m16-p06.png?raw=true)
+
+<br/>
+
+### 017 Fixing the Manage Page
+
+<br/>
+
+![Application](/img/pic-m16-p07.png?raw=true)
