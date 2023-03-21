@@ -53,6 +53,34 @@ Package                      Version
 
 ```
 
+## How to Run
+
+Cloud Firestore -> Firestore Database -> Rules
+
+<br/>
+
+```js
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read: if true;
+      allow write: if request.auth.uid == resource.data.uid;
+      allow create: if request.auth.id != null;
+      allow delete: if request.auth.id != resource.data.uid;
+    }
+  }
+}
+```
+
+<br/>
+
+```
+// install gcloud, then
+$ gcloud auth login
+$ gsutil cors set cors.json gs://complete-angular-developer.appspot.com
+```
+
 <br/>
 
 **Video samples for download:**  
