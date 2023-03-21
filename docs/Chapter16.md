@@ -137,3 +137,7 @@ $ npm install video.js@7.15.4 @types/video.js @videojs/themes
 <br/>
 
 ### 018 Copying Links to the Clipboard
+
+<br/>
+
+### 019 Lazy Loading Modules
