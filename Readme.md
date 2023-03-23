@@ -53,7 +53,21 @@ Package                      Version
 
 ```
 
+<br/>
+
 ## How to Run
+
+```
+$ cd app/clips
+$ npm install
+$ npm start
+```
+
+http://localhost:4200/
+
+<br/>
+
+### Additional setup
 
 Cloud Firestore -> Firestore Database -> Rules
 
