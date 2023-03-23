@@ -95,3 +95,27 @@ $ npm run test
 ```
 $ ng add @cypress/schematic
 ```
+
+<br/>
+
+### 018 Exploring Cypress
+
+```
+$ npm run e2e
+```
+
+<br/>
+
+![Application](/img/pic-m18-p03.png?raw=true)
+
+<br/>
+
+### 019 Writing an E2E Sanity Test
+
+<br/>
+
+### 020 Testing the Video Player
+
+<br/>
+
+![Application](/img/pic-m18-p04.png?raw=true)
