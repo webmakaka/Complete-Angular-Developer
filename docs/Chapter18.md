@@ -71,3 +71,19 @@ $ npm run test
 <br/>
 
 ### 014 Importing the Router Testing Module
+
+<br/>
+
+### 014 Importing the Router Testing Module
+
+<br/>
+
+### 015 Exercise Testing the Logout Link
+
+<br/>
+
+### 016 Simulating DOM Events
+
+<br/>
+
+![Application](/img/pic-m18-p02.png?raw=true)
