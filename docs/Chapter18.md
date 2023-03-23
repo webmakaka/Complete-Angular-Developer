@@ -87,3 +87,11 @@ $ npm run test
 <br/>
 
 ![Application](/img/pic-m18-p02.png?raw=true)
+
+<br/>
+
+### 017 Installing Cypress
+
+```
+$ ng add @cypress/schematic
+```
