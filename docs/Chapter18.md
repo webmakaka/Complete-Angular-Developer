@@ -35,3 +35,11 @@ $ npm run test
 <br/>
 
 ### 006 Testing a Component’s Instance
+
+<br/>
+
+### 007 Querying the Component’s Template
+
+<br/>
+
+### 008 Inverting Matchers
