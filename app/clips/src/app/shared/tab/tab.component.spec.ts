@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { TabComponent } from 'src/app/shared/tab/tab.component';
 
-describe('About Component', () => {
+describe('TabComponent', () => {
   let fixture: ComponentFixture<TabComponent>;
   let component: TabComponent;
 
