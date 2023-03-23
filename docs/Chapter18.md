@@ -27,3 +27,11 @@ $ npm run test
 <br/>
 
 ![Application](/img/pic-m18-p01.png?raw=true)
+
+<br/>
+
+### 005 Angular’s Test Bed Utility
+
+<br/>
+
+### 006 Testing a Component’s Instance
