@@ -55,3 +55,19 @@ $ npm run test
 <br/>
 
 ### 010 Testing Content Projection
+
+<br/>
+
+### 011 Custom Matcher Error Messages
+
+<br/>
+
+### 012 Mocking Services
+
+<br/>
+
+### 013 Overriding a Dependency
+
+<br/>
+
+### 014 Importing the Router Testing Module
