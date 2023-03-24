@@ -146,3 +146,14 @@ http://localhost:4200/manage-clips
 <br/>
 
 ### 021 Route Guards
+
+<br/>
+
+---
+
+<br/>
+
+**Marley**
+
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>

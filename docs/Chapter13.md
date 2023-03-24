@@ -251,3 +251,14 @@ Wait for a few minutes
 <br/>
 
 ![Application](/img/pic-m13-p16.gif?raw=true)
+
+<br/>
+
+---
+
+<br/>
+
+**Marley**
+
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
