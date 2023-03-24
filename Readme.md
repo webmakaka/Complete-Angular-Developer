@@ -80,8 +80,58 @@ service cloud.firestore {
     match /{document=**} {
       allow read: if true;
       allow write: if request.auth.uid == resource.data.uid;
-      allow create: if request.auth.id != null;
-      allow delete: if request.auth.id != resource.data.uid;
+      allow create: if request.auth.uid != null;
+      allow delete: if request.auth.uid == resource.data.uid;
+    }
+  }
+}
+```
+
+<br/>
+
+**Disable for debug**
+
+```js
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+       allow create, read, write, delete;
+    }
+  }
+}
+```
+
+<br/>
+
+Cloud Firestore -> Storage -> Rules
+
+```js
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+                    (request.resource.contentType == 'video/mp4' ||
+                    request.resource.contentType == 'image/png'
+                    ) &&
+                  request.resource.size < 25 * 1000 * 1000;
+      allow delete: if request.auth != null;
+    }
+  }
+}
+```
+
+<br/>
+
+**Disable for debug**
+
+```js
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow create, read, write, delete;
     }
   }
 }
@@ -97,8 +147,8 @@ $ gsutil cors set cors.json gs://complete-angular-developer.appspot.com
 
 <br/>
 
-**Video samples for download:**  
-https://test-videos.co.uk/bigbuckbunny/mp4-h264
+**Twitch clip downloader:**  
+https://clipsey.com/
 
 <br/>
 

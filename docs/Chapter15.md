@@ -112,8 +112,10 @@ service firebase.storage {
     match /{allPaths=**} {
       allow read: if true;
       allow write: if request.auth != null &&
-      (request.resource.contentType == 'video/mp4' || request.resource.contentType == 'image/png') &&
-      request.resource.size < 25 * 1000 * 1000;
+                    (request.resource.contentType == 'video/mp4' ||
+                    request.resource.contentType == 'image/png'
+                    ) &&
+                  request.resource.size < 25 * 1000 * 1000;
       allow delete: if request.auth != null;
     }
   }

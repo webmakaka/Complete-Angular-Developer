@@ -23,8 +23,8 @@ service cloud.firestore {
     match /{document=**} {
       allow read: if true;
       allow write: if request.auth.uid == resource.data.uid;
-      allow create: if request.auth.id != null;
-      allow delete: if request.auth.id != resource.data.uid;
+      allow create: if request.auth.uid != null;
+      allow delete: if request.auth.uid == resource.data.uid;
     }
   }
 }
